@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+  width: 600px;
+  background-image: url(assets/image-ile.jpg);
+  background-size: 100%;
+  transition-property: background-size;
+  transition-duration: 3s;
+}
+.container:hover {
+  background-size: 105%;
+  box-shadow: 10px 5px 5px black;
+}
+.container:hover .container-bot {
+  height: 400px;
+}
+.container:hover .container-bot .text-principal {
+  opacity: 1;
+}
+
+.container-top {
+  width: 600px;
+  height: 400px;
+}
+
+.container-bot {
+  width: 600px;
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+  transition-property: height;
+  transition-duration: 3s;
+}
+
+.bas-de-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+}
+
+.text-principal {
+  transition: opacity 0.5s linear;
+  opacity: 0;
+}
+
+.pastille-illu {
+  display: flex;
+  background-color: rgb(107, 43, 43);
+  border-radius: 50%;
+  position: absolute;
+  top: 5%;
+  left: 33%;
+  width: 45px;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+}
+
+.date {
+  color: white;
+  font-size: 18px;
+}/*# sourceMappingURL=style.css.map */
