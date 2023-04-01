@@ -22,6 +22,10 @@
 .container-top {
   width: 600px;
   height: 400px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-left: -20px;
 }
 
 .container-bot {
@@ -48,9 +52,6 @@
   display: flex;
   background-color: rgb(107, 43, 43);
   border-radius: 50%;
-  position: absolute;
-  top: 5%;
-  left: 33%;
   width: 45px;
   height: 45px;
   justify-content: center;
