@@ -1,6 +1,8 @@
 $background-color: rgb(255, 255, 255);
 $widfth: 600px;
 $center: center;
+$height: 400px;
+$pasti: 45px;
 .container {
   display: flex;
   flex-direction: column;
@@ -15,7 +17,7 @@ $center: center;
     background-size: 105%;
     box-shadow: 10px 5px 5px black;
     .container-bot {
-      height: 400px;
+      height: $height;
       .text-principal {
         opacity: 1;
       }
@@ -24,7 +26,11 @@ $center: center;
 }
 .container-top {
   width: $widfth;
-  height: 400px;
+  height: $height;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-left: -20px;
 }
 .container-bot {
   width: $widfth;
@@ -50,11 +56,8 @@ $center: center;
   display: flex;
   background-color: rgb(107, 43, 43);
   border-radius: 50%;
-  position: absolute;
-  top: 5%;
-  left: 33%;
-  width: 45px;
-  height: 45px;
+  width: $pasti;
+  height: $pasti;
   justify-content: $center;
   align-items: $center;
 }
