@@ -3,7 +3,7 @@
   flex-direction: column;
   height: 550px;
   width: 600px;
-  background-image: url(assets/image-ile.jpg);
+  background-image: url(/assets/image-ile.jpg);
   background-size: 100%;
   transition-property: background-size;
   transition-duration: 3s;
