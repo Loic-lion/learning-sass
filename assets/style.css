@@ -53,13 +53,23 @@
   display: flex;
   background-color: rgb(107, 43, 43);
   border-radius: 50%;
-  width: 45px;
-  height: 45px;
+  width: 70px;
+  height: 70px;
   justify-content: center;
   align-items: center;
 }
 
 .date {
   color: white;
-  font-size: 18px;
+  font-size: 25px;
+}
+
+.pastille {
+  background-color: rgb(107, 43, 43);
+  width: 200px;
+  height: 50px;
+}
+
+h3 {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
