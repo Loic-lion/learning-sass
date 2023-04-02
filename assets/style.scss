@@ -15,7 +15,7 @@ $pasti: 45px;
 
   &:hover {
     background-size: 105%;
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 5px 5px 5px black;
     .container-bot {
       height: $height;
       .text-principal {
@@ -38,6 +38,7 @@ $pasti: 45px;
   background-color: $background-color;
   transition-property: height;
   transition-duration: 3s;
+  overflow: hidden;
 }
 
 .bas-de-page {
@@ -66,3 +67,4 @@ $pasti: 45px;
   color: white;
   font-size: 18px;
 }
+
